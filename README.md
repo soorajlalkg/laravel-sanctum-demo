@@ -56,9 +56,10 @@ The api can be accessed at [http://localhost:8000/api](http://localhost:8000/api
 
 ###### Authorization Type: Bearer Token
 
-API EndPoint | Description | Request Body | Token Required |
-|---|---|---|---|
-| /api/register | Create account | {"name":"", "email":"","password":"", "password_confirmation":""} | No | 
-| /api/login | Login | {"email":"","password":""} | No | 
-| /api/me | Get current user details | | Yes | 
-| /api/logout | Logout |  | Yes | 
+
+EndPoint | Method | Description | Request Body | Token Required |
+|---|---|---|---|---|
+| /api/register | POST | Create account | {"name":"", "email":"","password":"", "password_confirmation":""} | No | 
+| /api/login | POST |Login | {"email":"","password":""} | No | 
+| /api/me | GET |Get current user details | | Yes |
+| /api/logout | POST |Logout |  | Yes | 
