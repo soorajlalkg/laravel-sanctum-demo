@@ -1,4 +1,4 @@
-# [Laravel Sanctum Token App]
+# [Laravel Sanctum Token API Example]
 
 
 # Getting started
